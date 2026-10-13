@@ -1,3 +1,4 @@
-.pio
-.vscode
+.pio/
+.vscode/
+secrets.h
 ESP32_Arduino_TP1/
