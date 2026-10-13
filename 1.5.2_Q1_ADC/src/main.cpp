@@ -5,7 +5,7 @@
 void setup() {
     Serial.begin(115200);
     // Configure ADC on GPIO 36 (ADC1_CH0)
-    analogSetPinAttenuation(36, (adc_attenuation_t)ADC_ATTEN_DB_12);  // Set attenuation to 12dB (max ~3.1V)
+    analogSetPinAttenuation(36, ADC_11db);  // Set attenuation to max (~3.1V), = ADC_ATTEN_DB_12 sur le coeur 3.x
     analogSetWidth(12);                                               // Set ADC resolution to 12 bits (0-4095)
 }
 
