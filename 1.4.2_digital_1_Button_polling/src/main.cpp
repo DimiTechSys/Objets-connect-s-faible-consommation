@@ -1,3 +1,5 @@
+#include <Arduino.h>
+
 const int buttonPin = 2;
 
 int count = 0;               // variable GLOBALE
