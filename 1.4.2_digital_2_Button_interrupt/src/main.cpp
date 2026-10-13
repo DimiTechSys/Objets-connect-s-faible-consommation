@@ -1,3 +1,7 @@
+#include <Arduino.h>
+
+void buttonReleased();
+
 volatile int count = 0;              
 volatile bool countChanged = false;
 
