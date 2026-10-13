@@ -1,0 +1,6 @@
+// Copier ce fichier en secrets.h (ignoré par git) et remplir les valeurs.
+#pragma once
+
+#define WIFI_SSID        "nom_du_wifi"
+#define WIFI_PASSWORD    "mot_de_passe_wifi"
+#define WEATHERSTACK_KEY "cle_api_weatherstack"
