@@ -16,6 +16,7 @@ Chaque dossier contient son `platformio.ini` et son code dans `src/main.cpp`.
 | [`2.1.2.2_LCD_BME680`](2.1.2.2_LCD_BME680) | 2.1.2.2 | Température et humidité du BME680 sur le LCD et le port série | |
 | [`2.2.1_3_Weatherstack`](2.2.1_3_Weatherstack) | 2.2.1 Q3 | Météo de Paris via l'API Weatherstack (HTTP + JSON) | |
 | [`2.3_AdafruitIO_MQTT`](2.3_AdafruitIO_MQTT) | 2.3 | Envoi température et humidité du BME680 vers Adafruit IO en MQTT | |
+| [`captures`](captures) | Partie 3 | Exports bruts WaveForms des trois modes (mode normal, light sleep, deep sleep) | — |
 
 ## Compiler et téléverser
 
