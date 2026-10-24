@@ -5,8 +5,8 @@ Ce sont les trois fichiers nommés dans la colonne « Fichier » de la fiche de 
 
 | Fichier | Mode | Heure de capture | I moyen sur la fenêtre | I moyen sur un nombre entier de cycles |
 |---|---|---|---|---|
-| `normal_mode.csv` | clignotement 550 ms / 2000 ms | 11:22:10 | 38,68 mA | 38,67 mA (4 périodes) |
-| `light_sleep.csv` | même clignotement, light sleep | 11:32:57 | 20,51 mA | 19,90 mA (5 périodes) |
+| `normal_mode.csv` | clignotement 550 ms / 2000 ms | 11:22:10 | 38,68 mA | 38,67 mA (4 cycles) |
+| `light_sleep.csv` | même clignotement, light sleep | 11:32:57 | 20,51 mA | 20,48 mA (3 cycles) |
 | `deep_sleep.csv` | réveil toutes les 3,75 s | 11:38:41 | 16,22 mA | 16,71 mA (1 cycle) |
 
 Réglages communs : 800 éch./s, 8000 points (fenêtre de 10 s), voie Math `C1 / 1.4` où 1,4 Ω est la
