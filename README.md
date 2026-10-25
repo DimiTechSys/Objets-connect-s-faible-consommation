@@ -16,6 +16,14 @@ Chaque dossier contient son `platformio.ini` et son code dans `src/main.cpp`.
 | [`2.1.2.2_LCD_BME680`](2.1.2.2_LCD_BME680) | 2.1.2.2 | Température et humidité du BME680 sur le LCD et le port série | |
 | [`2.2.1_3_Weatherstack`](2.2.1_3_Weatherstack) | 2.2.1 Q3 | Météo de Paris via l'API Weatherstack (HTTP + JSON) | |
 | [`2.3_AdafruitIO_MQTT`](2.3_AdafruitIO_MQTT) | 2.3 | Envoi température et humidité du BME680 vers Adafruit IO en MQTT | |
+| [`3.2.1_Blink_Normal`](3.2.1_Blink_Normal) | 3.2.1 | Clignotement 550 ms / 2000 ms, carte active en permanence | Figure 2a |
+| [`3.2.2_Blink_LightSleep`](3.2.2_Blink_LightSleep) | 3.2.2 | Même clignotement, la carte dort 1450 ms en light sleep | Figure 2b |
+| [`3.2.3_Blink_DeepSleep`](3.2.3_Blink_DeepSleep) | 3.2.3 | Réveil toutes les 3,75 s, tout le travail dans `setup()` | Figures 1a et 1b |
+| [`3.2.4_1_Bouton_LED_Reponse`](3.2.4_1_Bouton_LED_Reponse) | 3.2.4 | Temps de réponse bouton → LED, carte active (référence) |  |
+| [`3.2.4_2_Bouton_LED_LightSleep`](3.2.4_2_Bouton_LED_LightSleep) | 3.2.4 | Même fonction en light sleep, réveil sur GPIO |  |
+| [`3.2.4_3_Compteur_boots_DeepSleep`](3.2.4_3_Compteur_boots_DeepSleep) | 3.2.4 | Compteur de démarrages : variable ordinaire contre `RTC_DATA_ATTR`, avec `esp_reset_reason()` |  |
+| [`3.2.4_4_LDR_LED_Reponse`](3.2.4_4_LDR_LED_Reponse) | 3.2.4 | Temps de réponse LDR → LED, carte active (référence) |  |
+| [`3.2.4_5_LDR_LED_DeepSleep`](3.2.4_5_LDR_LED_DeepSleep) | 3.2.4 | Même fonction en deep sleep : lecture périodique faute d'ULP |  |
 | [`captures`](captures) | Partie 3 | Exports bruts WaveForms des trois modes (mode normal, light sleep, deep sleep) | — |
 
 ## Compiler et téléverser
